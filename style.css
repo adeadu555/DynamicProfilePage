@@ -113,3 +113,14 @@ h1 {
 .hover-right .left :before {
     z-index: 2;
 }
+@media (max-width: 800px) {
+    h1 {font-size: 2rem;}
+}
+.button {
+    width: 12rem;
+}
+@media (min-height: 700px) {
+    .button {
+        top: 70%;
+    }
+}
