@@ -1,7 +1,44 @@
 
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: white;
+}
+#leftbox {
+    float: left;
+    width: 30%;
+    height: 600px;
+    background: #ccc;
+    padding: 20px;
+}
+#rightbox {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 600px;
+}
+section::after {
+    content:"";
+    display: table;
+    clear: both;
+}
 
-
-
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    width: 100%;
+}
 
 
 
