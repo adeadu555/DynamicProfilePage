@@ -37,7 +37,7 @@ header {
     float: left;
     padding: 20px;
     width: 100%;
-    background-color: rgb(238, 24, 24);
+    background-color: rgb(94, 89, 89);
     height: 600px;
 }
 section::after {
