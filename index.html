@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"/>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <title>Gboyega Adu Portfolio</title>
 </head>
 <header>
@@ -28,7 +32,8 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-                Modal body...
+                <b>Work Experience:</b> Web developer with several years' experience utilizing technologies like HTML, CSS, Bootstrap, AJAX, JQuery, NodeJS, Express, MySQL, Mongo DB and ReactJs.<br>
+                <b>Education:</b> BSc Applied Accounting, NuCamp FullStack Certificate.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -64,19 +69,19 @@
 <section id="rightbox">
     <h3><span class="badge badge-dark">Previous Projects</span></h3>
     <a href="" class=" "><img src="" alt="" /></a>
-    <h3><a href=" https://fullstackzack.github.io/moodii/">Moodii</a></h3>
+    <h3><a href=" https://fullstackzack.github.io/moodii/" data-toggle="tooltip" title="Moodii!">Moodii</a></h3>
     <p>An application that tailors various entertainment contents to your current mood.</p>
 
     <a href=" " class=""><img src="" alt="" /></a>
-    <h3><a href=" https://adeadu555.github.io/Day-planner./">Work Day Scheduler</a></h3>
+    <h3><a href=" https://adeadu555.github.io/Day-planner./" data-toggle="tooltip" title="Work Day Scheduler!">Work Day Scheduler</a></h3>
     <p>A simple application that helps you schedule your upcoming activities.</p>
 
     <a href="" class=""><img src="" alt="" /></a>
-    <h3><a href=" https://adeadu555.github.io/adeAadu.github.io/">Code Quiz</a></h3>
+    <h3><a href=" https://adeadu555.github.io/adeAadu.github.io/" data-toggle="tooltip" title="Code Quiz!">Code Quiz</a></h3>
     <p>An application that generates coding questions for users.</p>
 
     <a href="" class=""><img src="" alt="" /></a>
-    <h3><a href=" https://adeadu555.github.io/AdeAdu.github.io/">Responsive Portfolio</a></h3>
+    <h3><a href=" https://adeadu555.github.io/AdeAdu.github.io/"data-toggle="tooltip" title="Responsive Portfolio!">Responsive Portfolio</a></h3>
     <p>A website showing my details</p>
 
 </section>
@@ -124,7 +129,14 @@
 <a href="#" class="icon brands fa-github"><span class="label"><a href = "https://github.com/adeadu555">Github</a></span></a>
 <a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a>
                                           
- </footer>       
+ </footer>    
+ 
+ <script>
+     $(document).ready(function(){
+         $('[data-toggle="tooltip"]').tooltip();
+     });
+
+ </script>
 
 </body>
 </html>
