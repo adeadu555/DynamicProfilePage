@@ -1,4 +1,37 @@
-* {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/* {
     padding: 0;
     margin: 0;
 }
@@ -23,16 +56,25 @@ section h1 {
     color: white;
     padding: 12px 32px;
 }
+section:hover {
+    flex:2;
+}
 .aboutme {
     background-color: tomato;
-    background-position: center;
+    background-position: left;
     background-size: cover;
     background-blend-mode: multiply;
 }
 
-.aboutme {
-    background-color: tomato;
-    background-position: center;
+.designer {
+    background-color: yellow;
+    background-position: left;
     background-size: cover;
     background-blend-mode: multiply;
 }
+.three {
+    background-color: blue;
+    background-position: left;
+    background-size: cover;
+    background-blend-mode: multiply;
+}//
