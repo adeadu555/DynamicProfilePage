@@ -49,8 +49,8 @@ section::after {
 footer {
     background-color: #777;
     padding: 10px;
-    text-align: left;
-    color: white;
+    text-align: middle;
+    color: tomato;
     width: 100%;
 }
 p {

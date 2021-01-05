@@ -94,55 +94,58 @@
  </section>
 
 <section id="belowbox">
-    
+
     <h3><span class="badge badge-dark">Contact Me</span></h3>
-    <p>Get in touch by submitting your details below or visit my office or contact me through the information below.</p>
-    <div class="row">
-    <div class="col-8 col-12-small">
-    <form method="post" action="#">
-    <div class="row gtr-uniform gtr-50">
-        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-        <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-        </div>
-    </form>
-        <ul class="actions">
-        <li><input type="submit" value="Send Message" /></li>
-        </ul>
-        </div>
-        <div class="col-4 col-12-small">
-        <ul class="labeled-icons">
-        <li>
-        <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-        1414 Wood Hollow Drive, Apt 734.<br />
-        Houston, TX 77057<br />
-        United States
-        </li>
-        <li>
-        <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-        832-504-5504
-        </li>
-        <li>
-        <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-        <a href="#">ade.adu555@gmail.com</a>
-        </li>
-        </ul>
-        </div>
+    <p><b>Get in touch by submitting your details below.</b></p>
 
-        </section>
+<form action="" class="needs-validation" novalidate>
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" class="form-control" id="Name" placeholder="Enter Name" Name="Name" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Invalid</div>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email:</label>
+        <input type="email" class="form-control" id="Email" placeholder="Enter Email" required>
+        <div class="valid-feedback">Valid</div>
+        <div class="Invalid-feedback">Please fill out this field</div>
+    </div>
+    <div class="form-group">
+       
+        <textarea placeholder="Enter your message" type="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
-<footer>
-                   
+</section>
+
+<section>
+    <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+    1414 Wood Hollow Drive, Apt 734.<br />
+    Houston, TX 77057<br />
+    United States
+
+    <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+    832-504-5504
+    
+    
+    <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+    <a href="#">ade.adu555@gmail.com</a>
+
+</section>
+
+<footer>                 
 <a href="#" class="icon brands fa-github"><span class="label"><a href = "https://github.com/adeadu555">Github</a></span></a>
-<a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a>
-                                          
- </footer>    
+<a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a>                                        
+ 
+
+</footer>    
  
  <script>
      $(document).ready(function(){
          $('[data-toggle="tooltip"]').tooltip();
      });
-
  </script>
 
 </body>
