@@ -79,6 +79,9 @@ section::after {
 .modal-body {
     background-color: orange;
 }
+.modal-footer {
+    background-color: slateblue;
+}
 
 #isubmit {
     border: 2px white;
