@@ -6,7 +6,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
 header {
-    background-color: tomato;
+    background-color: #FF4500;
     padding: 30px;
     text-align: left;
     font-size: 35px;
@@ -37,8 +37,15 @@ header {
     float: left;
     padding: 20px;
     width: 50%;
-    background-color: rgb(94, 89, 89);
+    background-color: #9ACD32;
     height: 600px;
+}
+#address {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #F4A460 ;
+    height: 300px;
 }
 section::after {
     content:"";
