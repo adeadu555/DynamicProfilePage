@@ -18,3 +18,21 @@ section {
     justify-content: center;
     flex:1;
 }
+section h1 {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 12px 32px;
+}
+.aboutme {
+    background-color: tomato;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.aboutme {
+    background-color: tomato;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
