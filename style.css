@@ -23,7 +23,21 @@ header {
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: powderblue;
+    height: 600px;
+}
+#middlebox {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: yellow;
+    height: 600px;
+}
+#belowbox {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(238, 24, 24);
     height: 600px;
 }
 section::after {
