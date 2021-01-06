@@ -11,7 +11,7 @@ header {
     text-align: left;
     font-size: 35px;
     color: white;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 #leftbox {
     float: left;
@@ -19,7 +19,7 @@ header {
     height: 600px;
     background: #ccc;
     padding: 20px;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 #rightbox {
     float: left;
@@ -27,7 +27,7 @@ header {
     width: 50%;
     background-color: powderblue;
     height: 600px;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 #middlebox {
     float: left;
@@ -35,7 +35,7 @@ header {
     width: 50%;
     background-color: yellow;
     height: 600px;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 #belowbox {
     float: left;
@@ -43,7 +43,7 @@ header {
     width: 50%;
     background-color: #9ACD32;
     height: 600px;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 #address {
     float: left;
@@ -51,7 +51,7 @@ header {
     width: 100%;
     background-color: #F4A460 ;
     height: 300px;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 section::after {
     content:"";
@@ -65,7 +65,7 @@ section::after {
     text-align: middle;
     color: tomato;
     width: 100%;
-    border: 1px solid blue;
+    border: 0.5px solid blue;
 }
 .modal-header
  {
