@@ -17,6 +17,27 @@ header {
 header:hover {
     background-color: yellow;
 }
+#topbox1 {
+    float: left;
+    width:25%;
+    height: 300px;
+}
+#topbox2 {
+    float: left;
+    width:25%;
+    height: 300px;
+}
+#topbox3 {
+    float: left;
+    width:25%;
+    height: 300px;
+}
+#topbox4 {
+    float: left;
+    width:25%;
+    height: 300px;
+}
+
 
 #leftbox {
     float: left;
