@@ -5,14 +5,19 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
+
 header {
     background-color: #FF4500;
-    padding: 30px;
+    padding: 50px;
     text-align: left;
     font-size: 35px;
     color: white;
     border: 0.5px solid blue;
 }
+header:hover {
+    background-color: yellow;
+}
+
 #leftbox {
     float: left;
     width: 50%;
