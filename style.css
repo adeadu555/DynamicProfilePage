@@ -40,8 +40,8 @@ body {
     text-align: left;
     font-size: 20px;
     color: white;
-    border: 0.5px solid blue;
-    height: 500px;
+    border: 0.5px transparent;
+    height: 700px;
 }
 #headerY:hover {
     background-color: blue;
@@ -53,7 +53,7 @@ body {
     text-align: left;
     font-size: 35px;
     color: white;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 #headerx:hover {
     background-color: blue;
@@ -85,7 +85,7 @@ body {
     height: 700px;
     background: lightblue;
     padding: 20px;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 #rightbox {
     float: left;
@@ -93,7 +93,7 @@ body {
     width: 50%;
     background-color: powderblue;
     height: 600px;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 #middlebox {
     float: left;
@@ -101,7 +101,7 @@ body {
     width: 50%;
     background-color: yellow;
     height: 600px;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 #belowbox {
     float: left;
@@ -109,14 +109,14 @@ body {
     width: 50%;
     background-color: #9ACD32;
     height: 600px;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 #carox {
     float: left;
     padding: 1px;
     width: 100%;
     height: 600px;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 #address {
     float: left;
@@ -124,7 +124,7 @@ body {
     width: 100%;
     background-color: #F4A460 ;
     height: 300px;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 section::after {
     content:"";
@@ -138,7 +138,7 @@ section::after {
     text-align: middle;
     color: tomato;
     width: 100%;
-    border: 0.5px solid blue;
+    border: 0.5px transparent;
 }
 .modal-header
  {
@@ -190,7 +190,7 @@ h4, h6 {
     backface-visibility: hidden;
 }
 .flip-box-front {
-    background-color: green;
+    background-color: #E9967A;
     color: black;
 }
 .flip-box-back {
