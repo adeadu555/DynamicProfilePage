@@ -82,9 +82,9 @@ body {
 #leftbox {
     float: left;
     width: 100%;
-    height: 600px;
-    background: #ccc;
-    padding: 10px;
+    height: 700px;
+    background: lightblue;
+    padding: 20px;
     border: 0.5px solid blue;
 }
 #rightbox {
