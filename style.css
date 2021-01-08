@@ -25,23 +25,23 @@ body {
     color: white;
   }
 .hero-text button {
-    border: 10px blue;
+    border: 1px blue;
     outline: 0;
     display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: red;
+    padding: 1px 25px;
+    color: white;
+    background-color: blue;
     text-align: center;
     cursor: pointer;
   }
   #headerY {
     background-color: tomato;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     font-size: 20px;
     color: white;
     border: 0.5px solid blue;
-    height: 300px;
+    height: 500px;
 }
 #headerY:hover {
     background-color: blue;
@@ -61,22 +61,22 @@ body {
 #topbox1 {
     float: left;
     width:25%;
-    height: 300px;
+    height: 200px;
 }
 #topbox2 {
     float: left;
     width:25%;
-    height: 300px;
+    height: 200px;
 }
 #topbox3 {
     float: left;
     width:25%;
-    height: 300px;
+    height: 200px;
 }
 #topbox4 {
     float: left;
     width:25%;
-    height: 300px;
+    height: 200px;
 }
 
 #leftbox {
